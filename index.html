@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagonal Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="right">
+            <nav class="navbar">
+                <div class="logo"></div>
+                <div class="nav-links">
+                    <a href="#about">About Me</a>
+                    <a href="#skill">Skill</a>
+                    <a href="#projects">Project</a>
+                    <a href="#" class="contact-btn">CONTACT ME</a>
+                </div>
+            </nav>
+        </div>
+        <div class="left">
+            <div class="text-content">
+                <h2>Hi, I am</h2>
+                <h1>Ariski Ade Raharjo</h1>
+                <p class="p1">Jember University Student</p>
+                <div class="social-icons">
+                    <img src="img/email.png" alt="Email">
+                    <img src="img/github.png" alt="GitHub">
+                    <img src="img/instagram.png" alt="Instagram">
+                    <img src="img/wa.png" alt="WhatsApp">
+                </div>
+            </div>
+        </div>
+        <img src="img/fotoku.png" alt="Profile" class="profile-image">
+    </div>
+
+    <!-- 🔹 About Me Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Saya adalah seorang Mahasiswa Sistem Informasi di Universitas Jember yang memiliki minat besar pada pengembangan frontend dan backend. Saya memiliki pengalaman dalam membangun aplikasi menggunakan berbagai teknologi seperti JavaScript, Node.js, dan C#. Dalam pengembangan frontend, saya fokus pada menciptakan antarmuka pengguna yang responsif dan intuitif, sementara di backend, saya berpengalaman dalam merancang sistem yang efisien, aman, dan scalable. Saya juga memiliki beberapa proyek yang telah saya kerjakan, baik secara individu maupun dalam tim. Saya selalu berusaha untuk terus belajar dan mengembangkan keterampilan saya dalam bidang teknologi informasi, serta berkontribusi pada proyek-proyek yang dapat memberikan dampak positif bagi masyarakat.
+                </p>
+                <p id="more-text" style="display: none;">
+                    Saya juga memiliki ketertarikan dalam arsitektur perangkat lunak dan optimasi kinerja aplikasi, 
+                    memastikan bahwa setiap sistem yang saya kembangkan dapat berjalan dengan efisien dan mudah dikembangkan lebih lanjut. 
+                    Saya senang mengeksplorasi teknologi terbaru dalam pengembangan web dan berusaha mengimplementasikannya dalam proyek-proyek saya. 
+                    Dengan kombinasi keahlian frontend dan backend, saya dapat membangun solusi yang tidak hanya fungsional tetapi juga memiliki pengalaman pengguna yang optimal.
+                </p>
+                <a href="#" id="read-more-btn" class="read-more">READ MORE</a>
+            </div>
+            <div class="about-image">
+                <img src="img/fotoku2.png" alt="About Image">
+            </div>
+        </div>
+    </section>
+    <div class="skill-container" id="skill">
+        <div class="skill">
+            <div class="box">
+                <p>SKILLS</p>
+            </div>
+        <div class="scroll-wrapper">
+            <div class="skill-item">
+                <img src="img/html.svg" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/css.svg" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/js.svg" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/figma.svg" alt="figma">
+                <p>Figma</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/git.svg" alt="git">
+                <p>Git</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/nodejs.png" alt="node.js">
+                <p>Node.Js</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/bootstrap.png" alt="bootstrap">
+                <p>Bootstrap</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/react.svg" alt="react">
+                <p>React</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/mysql.svg" alt="mysql">
+                <p>My SQL</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/c++.svg" alt="cpp">
+                <p>C++</p>
+            </div>
+            <div class="skill-item">
+                <img src="img/C.svg" alt="C">
+                <p>C</p>
+            </div>
+        </div>
+    </div>
+    <section class="projects" id="projects">
+        <div class="box">
+            <p>PROJECT</p>
+        </div>
+        <div class="project-container">
+            <div class="project-grid">
+                <div class="project-card">
+                    <!-- <img src="img/project1.png" alt="Project 1"> -->
+                    <div class="project-info">
+                        <h3>Project Toko Bunga Flowmark</h3>
+                        <p>Projek pembuatan aplikasi toko bunga untuk membantu
+                            <br> manajemen keuangan dan stok pada toko bunga.</p>
+                        <a href="#" class="project-btn">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <!-- <img src="img/project2.png" alt="Project 2"> -->
+                    <div class="project-info">
+                        <h3>Project Reservasi Salon</h3>
+                        <p>projek pembuatan aplikasi reservasi salon <br> dan manageman penjadwalan.</p>
+                        <a href="#" class="project-btn">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <!-- <img src="img/project3.png" alt="Project 3"> -->
+                    <div class="project-info">
+                        <h3>Project Pemesanan Tiket bioskop</h3>
+                        <p>projek pembuatan aplikasi pemesanan tiket dan <br> managemen film dan kursi bioskop<br>.</p>
+                        <a href="#" class="project-btn">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
